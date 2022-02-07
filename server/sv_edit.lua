@@ -6,7 +6,8 @@ GetPlayerLicenses = function(identifier, type)
     local result = SQL('SELECT * FROM players WHERE citizenid = @identifier', {['@identifier'] = identifier})
     if result[1] ~= nil then
         local metadata = result[1].metadata
-        if metadata.licenses[type] ~= nil and metadata.licenses[type] then
+
+        if metadata ~= nil and metadata.licenses ~= nil then
             return true -- Return True If Player Have Weapon License If Not Then Return False
         end
     end
