@@ -2,8 +2,6 @@ fx_version 'cerulean'
 
 game 'gta5'
 
-author 'ilAn#7021'
-
 lua54 'yes'
 
 shared_script 'sh_config.lua'
