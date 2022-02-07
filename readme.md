@@ -1,26 +1,8 @@
-```
-1. Install SQL:
+# Preview
+![image](https://user-images.githubusercontent.com/82112471/152825147-c016f3fd-ceae-41df-8be4-c7420a5438d5.png)
 
-Inject database.sql Into your Database.
+This MDT is work in progress and features may not work properly. 
 
-Make sure it all went in without errors.
+# Credit
 
-If you are using esx framework make sure to inject this too:
-
-ALTER TABLE `users`
-	ADD COLUMN `pp` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `policemdtinfo` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `tags` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `gallery` LONGTEXT NULL DEFAULT ''
-;
-
-If you are using qbcore framework make sure to inject this too:
-
-ALTER TABLE `players`
-	ADD COLUMN `pp` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `policemdtinfo` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `tags` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `gallery` LONGTEXT NULL DEFAULT ''
-;
-
-```
+Original Repo: https://github.com/FlawwsX/erp_mdt
