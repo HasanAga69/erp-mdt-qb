@@ -22,7 +22,7 @@ Config["PublicRecords"] = {
 Config["SQLWrapper"] = "oxmysql" -- Your sql wrapper | mysql-async / oxmysql / ghmattimysql
 
 Config["CoreSettings"]  = {
-    ["Core"] = "qbcore", -- Your core | qbcore, esx, npbase
+    ["Core"] = "qbcore", -- Your core | qbcore, esx,
     ["ESX"] = {
         ["ESXTrigger"] = "esx:getSharedObject"
     },
@@ -32,9 +32,6 @@ Config["CoreSettings"]  = {
         ["QBUSTrigger"] = "QBCore:GetObject",
         ["Players_Table"] = "players",
         ["OwnedVehicles_Table"] = "player_vehicles"
-    },
-    ["NPBase"] = {
-        ["CoreName"] = "iconic-fw"
     }
 }
 
