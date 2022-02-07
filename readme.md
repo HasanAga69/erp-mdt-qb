@@ -23,21 +23,4 @@ ALTER TABLE `players`
 	ADD COLUMN `gallery` LONGTEXT NULL DEFAULT ''
 ;
 
-If you are using pepe framework make sure to inject this too:
-
-ALTER TABLE `characters_metadata`
-	ADD COLUMN `pp` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `policemdtinfo` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `tags` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `gallery` LONGTEXT NULL DEFAULT ''
-;
-
-If you are using npbase framework make sure to inject this too:
-
-ALTER TABLE `characters`
-	ADD COLUMN `pp` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `policemdtinfo` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `tags` LONGTEXT NULL DEFAULT '',
-	ADD COLUMN `gallery` LONGTEXT NULL DEFAULT ''
-;
 ```
