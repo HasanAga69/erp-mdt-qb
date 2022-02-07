@@ -1483,7 +1483,5 @@ Citizen.CreateThread(function()
     elseif Config["CoreSettings"]["Core"] == "esx" then
         TriggerEvent(Config["CoreSettings"]["ESX"]["ESXTrigger"], function(obj) ESX = obj end)
         LoadESXVersion()
-    elseif Config["CoreSettings"]["Core"] == "npbase" then
-        LoadNopixelVersion()
     end
 end)
