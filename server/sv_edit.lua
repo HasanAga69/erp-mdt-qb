@@ -26,7 +26,10 @@ end
 -- ###################################################
 
 GetPlayerRadio = function(src)
-    return 1  -- Return The Player Radio Channel
+    local src = source
+	local ply = Player(src)
+
+    return ply.state.radioChannel  -- Return The Player Radio Channel
 end
 
 -- ####################################################
