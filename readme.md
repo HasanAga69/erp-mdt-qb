@@ -24,3 +24,5 @@ ALTER TABLE `players`
 ;
 
 ```
+
+This MDT is work in progress and features may not work properly. 
